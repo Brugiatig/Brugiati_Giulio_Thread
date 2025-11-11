@@ -5,6 +5,7 @@ Il programma simula la produzione di più torte suddividendo il processo in due 
 - Impastatura
 - Cottura
 
+
 Ogni fase è gestita da thread separati (`ImpastaTorte` e `CucinaTorte`), che permettono l’esecuzione in parallelo per più torte contemporaneamente.  
 L’utente può impostare la lentezza di ogni fase per ciascuna torta, simulando tempi di lavoro diversi.
 
